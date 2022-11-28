@@ -24,6 +24,6 @@ public class Main {
                 names[i] = name.substring(0, name.indexOf('ё')) + 'е' + name.substring(name.indexOf('ё') + 1);
             }
         }
-        System.out.println ("Данные ФИО сотрудника —" + String.join(separator, names));
+        System.out.println ("Данные ФИО сотрудника — " + String.join(separator, names));
     }
 }
